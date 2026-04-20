@@ -11,7 +11,7 @@ In many Nigerian organisations today, leave requests are still handled informall
 This project was built to solve that problem by transforming an unstructured process into a fully automated, digital workflow using Microsoft 365 tools. It introduces a structured, trackable, and auditable leave management system that ensures transparency from submission to final decision.  
 
 Employees can submit requests digitally, managers can approve or reject in real time, and all actions are logged automatically—creating a reliable system for HR operations.
-
+![My Image Description](https://github.com/R887645/Smart-Leave-Management-System-Automating-Leave-Requests-and-Approvals-for-Nigerian-Organisations/blob/main/Leave%20Approval%20Image.png?raw=true)
 ---
 
 ## 🚨 Problem Statement  
@@ -69,6 +69,8 @@ The goal of this project is to:
   - Cover Arranged  
   - Manager Email  
 
+![My Image Description](https://github.com/R887645/Smart-Leave-Management-System-Automating-Leave-Requests-and-Approvals-for-Nigerian-Organisations/blob/main/Leave%20Request%20Form.jpg?raw=true)
+
 ---
 
 ### Step 2: Prepare Excel Audit Log  
@@ -93,6 +95,8 @@ Columns include:
 - Manager Comments  
 - Decision Date  
 
+![My Image Description](https://github.com/R887645/Smart-Leave-Management-System-Automating-Leave-Requests-and-Approvals-for-Nigerian-Organisations/blob/main/Excel%20file_empty.jpg?raw=true)
+
 ---
 
 ### Step 3: Build Power Automate Flow  
@@ -100,12 +104,25 @@ Columns include:
 **Trigger:**  
 - When a new response is submitted (Microsoft Forms)
 
+![my image description](https://github.com/R887645/Smart-Leave-Management-System-Automating-Leave-Requests-and-Approvals-for-Nigerian-Organisations/blob/main/when%20response%20submitted.png?raw=true)
+
 **Key Actions:**  
 1. Get response details  
-2. Add row to Excel (Status = Pending)  
-3. Send acknowledgement email  
+![My Image Description](https://github.com/R887645/Smart-Leave-Management-System-Automating-Leave-Requests-and-Approvals-for-Nigerian-Organisations/blob/main/Get%20response%20details.png?raw=true)
+
+2. Add row to Excel (Status = Pending) 
+![My Image Description](https://github.com/R887645/Smart-Leave-Management-System-Automating-Leave-Requests-and-Approvals-for-Nigerian-Organisations/blob/main/add%20row%20into%20table_pending.png?raw=true)
+
+3. Send an acknowledgement email  
+
+![My Image Description](https://github.com/R887645/Smart-Leave-Management-System-Automating-Leave-Requests-and-Approvals-for-Nigerian-Organisations/blob/main/send%20email%201.png?raw=true)
+
 4. Start approval process  
-5. Condition check (Approve / Reject)  
+![My Image Description](https://github.com/R887645/Smart-Leave-Management-System-Automating-Leave-Requests-and-Approvals-for-Nigerian-Organisations/blob/main/start%20and%20await%20approval.jpg?raw=true)
+
+5. Condition check (Approve / Reject)
+
+![My Image Description](https://github.com/R887645/Smart-Leave-Management-System-Automating-Leave-Requests-and-Approvals-for-Nigerian-Organisations/blob/main/condition%20loop.png?raw=true)
 
 ---
 
@@ -114,10 +131,16 @@ Columns include:
 - Approval Type: **Approve/Reject – First responder**  
 - Condition:  
 
+![My Image Description](https://github.com/R887645/Smart-Leave-Management-System-Automating-Leave-Requests-and-Approvals-for-Nigerian-Organisations/blob/main/Approved_Update%20a%20row.png?raw=true)
 
-
+![My Image Description](https://github.com/R887645/Smart-Leave-Management-System-Automating-Leave-Requests-and-Approvals-for-Nigerian-Organisations/blob/main/update%20a%20row%20rejected.png?raw=true)
 
 ---
+
+**Full Flow**
+
+![My Image Description](https://github.com/R887645/Smart-Leave-Management-System-Automating-Leave-Requests-and-Approvals-for-Nigerian-Organisations/blob/main/power%20automate%20flow.png?raw=true)
+
 
 ### Step 5: If Approved  
 
@@ -127,6 +150,12 @@ Columns include:
 - ✅ Send approval email  
 - ✅ Create calendar event  
 
+![My Image Description](https://github.com/R887645/Smart-Leave-Management-System-Automating-Leave-Requests-and-Approvals-for-Nigerian-Organisations/blob/main/Excel%20Table%20for%20the%20Leave%20request.png?raw=true)
+
+![My Image Description](https://github.com/R887645/Smart-Leave-Management-System-Automating-Leave-Requests-and-Approvals-for-Nigerian-Organisations/blob/main/Power%20Automate%20Approve%203.jpg?raw=true)
+
+![My Image Description](https://github.com/R887645/Smart-Leave-Management-System-Automating-Leave-Requests-and-Approvals-for-Nigerian-Organisations/blob/main/power%20app%20approve%201.jpg?raw=true)
+
 ---
 
 ### Step 6: If Rejected  
@@ -135,6 +164,12 @@ Columns include:
 - ❌ Save manager comments  
 - ❌ Capture decision date  
 - ❌ Send rejection email  
+
+![My Image Description](https://github.com/R887645/Smart-Leave-Management-System-Automating-Leave-Requests-and-Approvals-for-Nigerian-Organisations/blob/main/power%20automation%20Jeject%203.jpg?raw=true)
+
+![My Image Description](https://github.com/R887645/Smart-Leave-Management-System-Automating-Leave-Requests-and-Approvals-for-Nigerian-Organisations/blob/main/power%20autmation%20Reject%202.jpg?raw=true)
+
+![My Image Description](https://github.com/R887645/Smart-Leave-Management-System-Automating-Leave-Requests-and-Approvals-for-Nigerian-Organisations/blob/main/automation%20reject.jpg?raw=true)
 
 ---
 
@@ -189,9 +224,9 @@ HR Team
 
 | Employee | Leave Type | Status | Comment |
 |----------|-----------|--------|---------|
-| Abdul-Hakeem | Maternity | Approved | Approved successfully |
+| Abdul-Hakeem Nafeesah| Maternity | Approved | Approved successfully |
 | Emeka | Sick Leave | Rejected | Medical report required |
-| Fatima | Emergency | Pending | — |
+| Fatima Aliyu| Emergency | Pending | — |
 
 ---
 
