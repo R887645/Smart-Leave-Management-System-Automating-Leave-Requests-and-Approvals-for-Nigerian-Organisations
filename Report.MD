@@ -8,7 +8,7 @@
 
 ## 🚀 Overview  
 
-In many Nigerian organisations today, leave requests are still handled informally—through WhatsApp messages, phone calls, or verbal approvals. While this may seem convenient, it often leads to missing records, approval disputes, payroll inconsistencies, and lack of accountability.  
+In many Nigerian organisations today, leave requests are still handled informally, through WhatsApp messages, phone calls, or verbal approvals. While this may seem convenient, it often leads to missing records, approval disputes, payroll inconsistencies, and lack of accountability.  
 
 This project was built to solve that problem by transforming an unstructured process into a fully automated, digital workflow using Microsoft 365 tools. It introduces a structured, trackable, and auditable leave management system that ensures transparency from submission to final decision.  
 
