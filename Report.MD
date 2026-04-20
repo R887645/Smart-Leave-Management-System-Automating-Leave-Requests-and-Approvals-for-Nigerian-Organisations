@@ -2,6 +2,8 @@
 **Built with Microsoft Forms, Power Automate & Excel Online**  
 *A step-by-step walkthrough of my Microsoft Elevate AI Developers Program Capstone Project*
 
+![My Image Description](https://github.com/R887645/Smart-Leave-Management-System-Automating-Leave-Requests-and-Approvals-for-Nigerian-Organisations/blob/main/Leave%20Approval%20Image.png?raw=true)
+
 ---
 
 ## 🚀 Overview  
@@ -11,7 +13,7 @@ In many Nigerian organisations today, leave requests are still handled informall
 This project was built to solve that problem by transforming an unstructured process into a fully automated, digital workflow using Microsoft 365 tools. It introduces a structured, trackable, and auditable leave management system that ensures transparency from submission to final decision.  
 
 Employees can submit requests digitally, managers can approve or reject in real time, and all actions are logged automatically—creating a reliable system for HR operations.
-![My Image Description](https://github.com/R887645/Smart-Leave-Management-System-Automating-Leave-Requests-and-Approvals-for-Nigerian-Organisations/blob/main/Leave%20Approval%20Image.png?raw=true)
+
 ---
 
 ## 🚨 Problem Statement  
