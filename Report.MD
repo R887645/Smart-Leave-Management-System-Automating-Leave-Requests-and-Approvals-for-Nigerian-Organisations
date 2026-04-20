@@ -236,7 +236,7 @@ HR Team
 
 1. No leave balance validation  
 2. No escalation if manager delays approval  
-3. Limited to Microsoft 365 environment  
+3. Limited to Microsoft 365 developer environment.
 
 ---
 
@@ -275,7 +275,7 @@ I enjoy turning manual processes into efficient digital systems that create real
 
 ## 📌 Notes  
 
-- This project was built using a Microsoft 365 Developer sandbox environment  
+- This project was built using a Microsoft 365 Developer environment  
 - External access may be restricted  
 - Data used is for demonstration purposes only  
 
