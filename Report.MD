@@ -271,6 +271,8 @@ Hi, I'm **Rofiah Abdul-Azeez**, an aspiring Data Analyst and Power Platform Deve
 
 I enjoy turning manual processes into efficient digital systems that create real impact.  
 
+[Read My Article on Medium](https://medium.com/@kehindeazeez49/how-i-automated-a-leave-approval-process-for-a-nigerian-organisation-using-microsoft-power-automate-f7c1bb0c290b?postPublishedType=initial)
+
 ---
 
 ## 📌 Notes  
